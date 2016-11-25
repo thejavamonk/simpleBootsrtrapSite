@@ -1,52 +1,39 @@
-p, h1 {
- font-family: 'Signika Negative', sans-serif;
-}
-
 /*NAVBAR*/
 
 .navbar-default {
- background-color:#000;
- border-color:transparent;
+	background-color: #000;
+	border-color: transparent;
 }
 
 .navbar-nav {
- font-family: 'Signika Negative', sans-serif;
- margin:35px 100px 0;
+	font-family: 'Signika Negative', sans-serif;
+	margin: 35px 100px 0
 }
 
 .navbar-default .navbar-nav li a {
- color:#fff;
+	color: #fff;
 }
 
 .navbar-default .navbar-nav li a:hover {
- color:#16a085;
+	color: #16a085;
 }
 
 .logo img {
- margin:15px 0 0 100px;
+	margin: 15px 0 0 100px;
 }
-
 
 /*MEDIA QUERIES*/
 
-@media(max-width:768px) {
+@media(max-width: 760px) {
+	.logo img {
+		margin: 15px 0 0 15px
+	}
 
- .logo img {
-  margin:10px 0 0 15px;
- }
+	.navbar-nav {
+		margin: 0
+	}
 
- .navbar-nav {
-  margin:0;
- }
- 
- .navbar-toggle {
-  margin-top:45px;
- }
-
+	.navbar-toggle {
+		margin-top: 45px;
+	}
 }
-
-
-
-
-
-
