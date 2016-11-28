@@ -1,13 +1,18 @@
+p, h1, h2 {
+	font-family: 'Signika Negative', sans-serif;
+}
+
 /*NAVBAR*/
 
 .navbar-default {
-	background-color: #000;
+	background-color: transparent;
 	border-color: transparent;
 }
 
 .navbar-nav {
 	font-family: 'Signika Negative', sans-serif;
 	margin: 35px 100px 0
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-default .navbar-nav li a {
@@ -37,3 +42,43 @@
 		margin-top: 45px;
 	}
 }
+
+/*SLIDER*/
+
+#slider {
+	background: url(../img/bg.jpg);
+	width:100%;
+	background-size: cover;
+}
+
+.item {
+	color: #fff;
+	padding: 200px 0;
+}
+
+.item h1 {
+	font-size: 2.5em;
+}
+
+.carousel-indicator li {
+	background-color: #fff;
+	margin: 5px;
+}
+
+.carousel-indicator .active {
+	background-color: #16a085;
+	border: 1px solid #16a085;
+	margin: 5px;
+}
+
+.btn-success {
+	background-color: #16a085;
+	border: #16a085;
+	font-size: 0.8em;
+	padding: 10px 20px 10px 20px;
+	margin: 15px 0;
+}
+
+.btn-success:hover {
+	background-color: #000;
+};
